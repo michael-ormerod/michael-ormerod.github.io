@@ -8,7 +8,36 @@ body {
 
 h1 {
     background: white;
-    padding: 2em;
-    
+    padding: 1em;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 
-}
+ }
+ span {
+     color:rgb(127, 193, 255);
+ }
+
+ .Introduction {
+     font-weight: bold;
+     font-size: 1.2em;
+     text-align: justify;
+ }
+
+ h2 {
+    background:rgb(127, 193, 255);
+    color: white;
+    padding: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 5em;
+    margin-right: 61em;
+ }
+
+ table tr td {
+     border: 2px solid;
+     border-collapse: collapse;
+     
+ }
