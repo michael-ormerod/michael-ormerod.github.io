@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
-    background: rgb(238, 216, 182);
+    background: rgb(214, 214, 214);
     margin: 2em;
     font-family: 'poppins';
+    text-align: justify;
   }
+
+.page-body {
+    max-width: 100em;
+    margin:auto;
+}
 
 h1 {
     background: white;
@@ -16,7 +22,7 @@ h1 {
     letter-spacing: 0.2em;
 
  }
- span {
+ span.headingemphasis {
      color:rgb(127, 193, 255);
  }
 
@@ -33,7 +39,6 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     border-radius: 5em;
-    margin-right: 61em;
  }
 
 .travel-content {
@@ -57,4 +62,12 @@ h1 {
 .country {
     font-size: 1.0em;
     font-weight: bold;
+}
+
+.video-container {
+    display:flex
+}
+
+.video-container div {
+    margin-right: 5em;
 }
